@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.fragments.RegisterFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/top_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@color/Green_01_Light"/>
+
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="343dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-105dp"
+            android:src="@drawable/letshike_logo_horizontal_white" />
+
+        <LinearLayout
+            android:id="@+id/layout_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="143dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/backward_arrow"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis_semibold"
+                android:text="Register"
+                android:textColor="@color/Green_01_Light"
+                android:textSize="22sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="90dp"/>
+
+        </LinearLayout>
+
+        <!-- inputs -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/layout_register">
+
+            <!-- name input -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/sofiapro_regular_italic"
+                android:text="Name"
+                android:textColor="@color/Black_01"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/login_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_input"
+                android:fontFamily="@font/sofiapro_regular_italic"
+                android:hint="your name"
+                android:paddingLeft="16dp"
+                android:textSize="14sp" />
+
+            <!-- email input -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/sofiapro_regular_italic"
+                android:text="Email"
+                android:textColor="@color/Black_01"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/login_email_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_input"
+                android:fontFamily="@font/sofiapro_regular_italic"
+                android:hint="youremail@email.com"
+                android:paddingLeft="16dp"
+                android:textSize="14sp" />
+
+            <!-- telephone input -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/sofiapro_regular_italic"
+                android:text="Telephone"
+                android:textColor="@color/Black_01"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/login_telephone_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_input"
+                android:fontFamily="@font/sofiapro_regular_italic"
+                android:hint="57 123456789"
+                android:paddingLeft="16dp"
+                android:textSize="14sp" />
+
+            <!-- password input -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/sofiapro_regular_italic"
+                android:text="Password"
+                android:textColor="@color/Black_01"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/login_password_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_input"
+                android:fontFamily="@font/sofiapro_regular_italic"
+                android:hint="yourpassword*****"
+                android:paddingLeft="14dp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accept_terms"
+            android:fontFamily="@font/sofiapro_regular_italic"
+            android:textColor="@color/Black_01"
+            android:textSize="14sp"
+            android:layout_marginTop="590dp"
+            android:layout_centerHorizontal="true"/>
+
+        <!-- login button -->
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="650dp"
+            android:fontFamily="@font/metropolis_semibold"
+            android:text="Register"
+            android:textColor="@color/White_01"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

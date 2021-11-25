@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ui.fragments.EventFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation"
+        android:layout_marginHorizontal="@dimen/card_margin_horizontal"
+        android:layout_marginTop="@dimen/card_margin_Top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- event image -->
+
+            <ImageView
+                android:id="@+id/img_card_event_01"
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                android:src="@drawable/img_event_01"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:orientation="horizontal"
+                android:background="@color/Green_01_Light"
+                android:layout_below="@id/img_card_event_01">
+
+                <!-- event name / element #1-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/event_name"
+                    android:layout_weight="50"
+                    android:fontFamily="@font/metropolis_semibold"
+                    android:textSize="16sp"
+                    android:textColor="@color/White_01"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <!-- event info / element #2-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginVertical="2dp">
+
+                    <!-- date -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginHorizontal="4dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_date"
+                            android:gravity="center"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/card_event_date"
+                            android:textColor="@color/White_01"
+                            android:fontFamily="@font/sofiapro_regular_italic"
+                            android:textSize="9sp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <!-- location -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginHorizontal="4dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_location"
+                            android:gravity="center"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/card_event_location"
+                            android:textColor="@color/White_01"
+                            android:fontFamily="@font/sofiapro_regular_italic"
+                            android:textSize="9sp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <!-- price -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginHorizontal="4dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_price"
+                            android:gravity="center"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/card_event_price"
+                            android:textColor="@color/White_01"
+                            android:fontFamily="@font/sofiapro_regular_italic"
+                            android:textSize="9sp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- event difficulty / element #3 -->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_4h_diff"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</FrameLayout>
