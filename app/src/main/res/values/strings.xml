@@ -8,4 +8,12 @@
     <string name="card_event_date">14/12/21</string>
     <string name="card_event_location">Cocora Valley</string>
     <string name="card_event_price">Free!!</string>
+    <string name="splash_screen_message">Welcome to Let\'s Hike!!</string>
+    <string name="Login_Title">Login</string>
+    <string name="login_email_tag">Email</string>
+    <string name="login_password_tag">Password</string>
+    <string name="email_hint">YourEmail@email.com</string>
+    <string name="login_password_hint">yourpassword*****</string>
+    <string name="Login_Button">Login</string>
+    <string name="register_title">Register</string>
 </resources>
