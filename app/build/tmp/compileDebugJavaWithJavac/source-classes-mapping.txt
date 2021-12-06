@@ -1,0 +1,14 @@
+com/example/letshikev3/BuildConfig.java
+ com.example.letshikev3.BuildConfig
+com/example/letshikev3/databinding/CardLayoutBinding.java
+ com.example.letshikev3.databinding.CardLayoutBinding
+com/example/letshikev3/databinding/FragmentHomeBinding.java
+ com.example.letshikev3.databinding.FragmentHomeBinding
+com/example/letshikev3/databinding/FragmentCreateEventBinding.java
+ com.example.letshikev3.databinding.FragmentCreateEventBinding
+com/example/letshikev3/databinding/FragmentMapsBinding.java
+ com.example.letshikev3.databinding.FragmentMapsBinding
+com/example/letshikev3/databinding/FragmentPostsBinding.java
+ com.example.letshikev3.databinding.FragmentPostsBinding
+com/example/letshikev3/databinding/ActivityMainBinding.java
+ com.example.letshikev3.databinding.ActivityMainBinding

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\card_layout.xml",
+        "source": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\src\\main\\res\\layout\\card_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_create_event.xml",
+        "source": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\src\\main\\res\\layout\\fragment_create_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_posts.xml",
+        "source": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\src\\main\\res\\layout\\fragment_posts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_maps.xml",
+        "source": "C:\\Users\\Adolfo Cuartas\\Desktop\\Educacion\\Mision 2022\\Ciclo #4\\LetsHikeV3\\app\\src\\main\\res\\layout\\fragment_maps.xml"
+    }
+]
