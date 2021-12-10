@@ -17,4 +17,6 @@
     <string name="go_home">Let\'s Start</string>
     <string name="event_title">Event Title</string>
     <string name="event_date">Event Date</string>
+    <string name="card_event_location">Event Location</string>
+    <string name="card_event_price">Free</string>
 </resources>
