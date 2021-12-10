@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LetsHikeV4</string>
+    <string name="login_title">Login</string>
+    <string name="login_email_tag">Email</string>
+    <string name="email_hint">email</string>
+    <string name="login_password_tag">Password</string>
+    <string name="login_password_hint">password</string>
+    <string name="Login_Button">Login</string>
+    <string name="register">Register</string>
+    <string name="access">Access</string>
+    <string name="profile_title">Profile</string>
+    <string name="profile_email_tag">Account Email</string>
+    <string name="profile_authentication_tag">Authentication Type</string>
+    <string name="profile_email">email</string>
+    <string name="profile_authentication_type">authentication type</string>
+    <string name="close_session">Logout</string>
+    <string name="go_home">Let\'s Start</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_date">Event Date</string>
+</resources>

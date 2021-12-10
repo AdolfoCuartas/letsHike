@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "206050927712",
+    "project_id": "letshike-66536",
+    "storage_bucket": "letshike-66536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206050927712:android:755128833dc26f2bdc4f05",
+        "android_client_info": {
+          "package_name": "com.example.letshikev4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206050927712-r088drqj9upsb0hu706vft891u3is9on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOBs48FoNf6zY8Tv6C_pp0wcIHCKRtNkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206050927712-r088drqj9upsb0hu706vft891u3is9on.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

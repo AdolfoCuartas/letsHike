@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- top logo-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/top_logo_rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/primaryColor" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo_horizontal" />
+        </RelativeLayout>
+
+        <!-- Login Title-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/metropolis_semibold"
+            android:text="@string/login_title"
+            android:textColor="@color/primaryColor"
+            android:textSize="24sp"/>
+
+        <!-- email input -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/sofiapro_regular_italic"
+            android:text="@string/login_email_tag"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/login_email_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/sofiapro_regular_italic"
+            android:hint="@string/email_hint"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="14sp"
+            android:inputType="textEmailAddress"/>
+
+        <!-- password input -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/sofiapro_regular_italic"
+            android:text="@string/login_password_tag"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/login_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/sofiapro_regular_italic"
+            android:hint="@string/login_password_hint"
+            android:paddingStart="14dp"
+            android:paddingEnd="16dp"
+            android:textSize="14sp"
+            android:inputType="textPassword"/>
+
+        <!-- buttons -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp">
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/metropolis_semibold"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:backgroundTint="@color/secondaryVariantColor"/>
+
+            <Space
+                android:layout_width="24dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/access_button"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/metropolis_semibold"
+                android:text="@string/access"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:backgroundTint="@color/primaryColor"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
